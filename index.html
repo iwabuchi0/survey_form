@@ -17,6 +17,7 @@
       <p id="description">Obrigada por nos ajudar a melhorar!</p>
     </header>
     <form id="survey-form">
+     
         <div class="categoria">
           <label for="nome" id="nome-label">Nome</label>
           <div class="container-input">
@@ -34,14 +35,15 @@
           <div class="container-input"></div>
           <input id="idade" name="idade" type="number" min="10" max="100" placeholder="Idade">
         </div>
-     
+     <div class="categoria">
       <label>Que opção define melhor você?</label>
       <select id="dropdown" name="situacao">
         <option value="mais-de-1-ano">Cliente há mais de 1 ano</option>
         <option value="menos-de-1-ano">Cliente há menos de 1 ano</option>
         <option value="colaborador">Colaborador em tempo integral</option>
         <option value="outro">Outro</option>
-      </select>
+      </select></div>
+      <div class="categoria">
       <p>Você recomendaria a Papelaria da Mel para um amigo?</p>
       <div class="container-radio">
         <input type="radio" id="com-certeza" name="recommend" value="com-certeza">
@@ -50,7 +52,8 @@
         <label for="recommend">Talvez</label><br>
         <input type="radio" id="provavelmente-nao" name="recommend" value="provavelmente-nao">
         <label for="recommend">Provavelmente não</label><br>
-      </div>
+      </div></div>
+      <div class="categoria">
       <p>O que você gostaria de ver mais por aqui?<span> (Pode selecionar mais de 1 opção)</span></p>
         <label>
           <div class="container-radio">
@@ -68,8 +71,8 @@
         <label>
           <input type="checkbox" name="sugestoes" value="kits-aniversario">
             Kits de Aniversário
-        </label>
-        </div>
+        </label></div>
+        
         <div class="comentarios">
           <label for="comentarios">Você tem mais comentários ou sugestões? Ficaremos felizes em saber o que você pensa!</label>
           <textarea id="comentarios" name="comentarios" style="width:100%; height:100px" ></textarea>
