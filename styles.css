@@ -2,11 +2,15 @@ body{
     background-color: #83f0ee;
     width: auto;
     font-family: 'Poppins', sans-serif;
-    font-size:18px;
+    font-size:15px;
+    background: linear-gradient(rgba(131,240,238,0.9), rgba(131,240,238,0.1))   , url('image.jpg') no-repeat center center fixed;
+     background-size: cover;
 }
 
 header{
     text-align: center;
+     color: #555053;
+     padding: 25px;
 }
 
 form{
@@ -14,11 +18,21 @@ form{
     margin: 0 auto;
     border: 2px solid #eb3c99;
     padding: 40px;
-    max-width: 900px;
+    max-width: 600px;
     width: 100%;
     background-color: white;
     color: #de2789;
-    font-weight:600;
+    font-weight:500;
+    border-radius:30px;
+}
+
+#nome, #email, #idade, #dropdown{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 8px;
 }
 
 button{
@@ -26,6 +40,8 @@ button{
     margin: auto;
     margin-top: 30px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
 }
 
 select, :placeholder-shown{
@@ -48,15 +64,6 @@ span{
 
 textarea{
     margin-top: 20px;
-}
-
-#nome, #email, #idade, #dropdown{
-    width: 50%;
-    padding: 8px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 8px;
 }
 
 .categoria{
