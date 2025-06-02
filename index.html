@@ -17,22 +17,22 @@
       <p id="description">Obrigada por nos ajudar a melhorar!</p>
     </header>
     <form id="survey-form">
-        <div>
+        <div class="categoria">
           <label for="nome" id="nome-label">Nome</label>
           <div class="container-input">
           <input required id="nome" type="text" name="nome" placeholder="Escreva seu nome aqui">
         </div>
       </div>
-        <div>
+        <div class="categoria">
           <label for="email" id="email-label">E-mail</label>
           <div class="container-input">
           <input required id="email" type="email" name="email" placeholder="Seu melhor email">
         </div>
         </div>
-        <div>
-          <label for="idade" id="numero-label">Idade</label><span> (opcional)</span>
+        <div class="categoria">
+          <label for="idade" >Idade</label><span> (opcional)</span>
           <div class="container-input"></div>
-          <input id="numero" name="idade" type="number" min="10" max="100" placeholder="Idade">
+          <input id="idade" name="idade" type="number" min="10" max="100" placeholder="Idade">
         </div>
      
       <label>Que opção define melhor você?</label>
@@ -43,15 +43,17 @@
         <option value="outro">Outro</option>
       </select>
       <p>Você recomendaria a Papelaria da Mel para um amigo?</p>
+      <div class="container-radio">
         <input type="radio" id="com-certeza" name="recommend" value="com-certeza">
         <label for="recommend">Com certeza</label><br>
         <input type="radio" id="talvez" name="recommend" value="talvez">
         <label for="recommend">Talvez</label><br>
         <input type="radio" id="provavelmente-nao" name="recommend" value="provavelmente-nao">
         <label for="recommend">Provavelmente não</label><br>
-      
+      </div>
       <p>O que você gostaria de ver mais por aqui?<span> (Pode selecionar mais de 1 opção)</span></p>
         <label>
+          <div class="container-radio">
           <input type="checkbox" name="sugestoes" value="novidades">
             Mais novidades<br>
         </label>
@@ -67,6 +69,7 @@
           <input type="checkbox" name="sugestoes" value="kits-aniversario">
             Kits de Aniversário
         </label>
+        </div>
         <div class="comentarios">
           <label for="comentarios">Você tem mais comentários ou sugestões? Ficaremos felizes em saber o que você pensa!</label>
           <textarea id="comentarios" name="comentarios" style="width:100%; height:100px" ></textarea>

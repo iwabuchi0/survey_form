@@ -2,7 +2,7 @@ body{
     background-color: #83f0ee;
     width: auto;
     font-family: 'Poppins', sans-serif;
-
+    font-size:18px;
 }
 
 header{
@@ -16,6 +16,9 @@ form{
     padding: 40px;
     max-width: 900px;
     width: 100%;
+    background-color: white;
+    color: #de2789;
+    font-weight:600;
 }
 
 button{
@@ -23,10 +26,6 @@ button{
     margin: auto;
     margin-top: 30px;
     padding: 10px;
-}
-
-input{
-    width: auto;
 }
 
 select{
@@ -45,10 +44,98 @@ span{
     margin-top: 30px;
 }
 
-label{
+textarea{
+    margin-top: 20px;
+}
 
+#nome, #email, #idade, #dropdown{
+    width: 50%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.categoria{
+    margin-bottom: 8px;
+}
+
+.container-radio{
+    margin-top: 2px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    body{
+    background-color: #83f0ee;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+}
+
+header{
+    text-align: center;
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #eb3c99;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    color: #de2789;
+    font-weight:600;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+select{
+    display: block;
+}
+
+span{
+    font-size: 13px;
+}
+
+.options{
+    display: block;
+}
+
+.comentarios{
+    margin-top: 30px;
 }
 
 textarea{
     margin-top: 20px;
 }
+
+#nome, #email, #idade, #dropdown{
+    width: 50%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.categoria{
+    margin-bottom: 8px;
+}
+
+.container-radio{
+    margin-top: 2px;
+}
+
+input[type="radio"], [type="checkbox"]{ 
+    color: #de2789;
+    font-weight:100;
+}
+
