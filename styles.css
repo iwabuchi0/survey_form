@@ -1,0 +1,54 @@
+body{
+    background-color: #83f0ee;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    text-align: center;
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #eb3c99;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+input{
+    width: auto;
+}
+
+select{
+    display: block;
+}
+
+span{
+    font-size: 13px;
+}
+
+.options{
+    display: block;
+}
+
+.comentarios{
+    margin-top: 30px;
+}
+
+label{
+
+}
+
+textarea{
+    margin-top: 20px;
+}
