@@ -1,23 +1,30 @@
 @media (max-width: 650px) {
   form {
+    max-width: 100%;
+    padding: 20px 10px;
     margin: 0 10px;
-    width: auto; 
+    }
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body{
     background-color: #83f0ee;
-    width: auto;
     font-family: 'Poppins', sans-serif;
     font-size:15px;
     background: linear-gradient(rgba(131,240,238,0.9), rgba(131,240,238,0.8))   , url('image.jpg') no-repeat center center fixed;
-     background-size: cover;
+    background-size: cover;
 }
 
 header{
     text-align: center;
      color: #eb3c99;
      padding: 25px;
-     width:auto;
      display: flex;
      flex-direction: column;
      
@@ -28,8 +35,9 @@ form{
     flex-direction: column;
     margin: 0 20px;
     border: 2px solid #eb3c99;
-    padding: 40px;
+    padding: 40px 20px;
     max-width: 600px;
+    width: 100%;
     background-color: white;
     color: #de2789;
     font-weight:500;
@@ -51,8 +59,7 @@ span{
 
 button{
     display: block;
-    margin: auto;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     font-size:15px;
