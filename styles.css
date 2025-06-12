@@ -1,3 +1,9 @@
+@media (max-width: 650px) {
+  form {
+    margin: 0 10px;
+    width: auto; 
+}
+
 body{
     background-color: #83f0ee;
     width: auto;
@@ -13,17 +19,17 @@ header{
      padding: 25px;
      width:auto;
      display: flex;
+     flex-direction: column;
      
 }
 
 form{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 20px;
     border: 2px solid #eb3c99;
     padding: 40px;
     max-width: 600px;
-    width: 100%;
     background-color: white;
     color: #de2789;
     font-weight:500;
