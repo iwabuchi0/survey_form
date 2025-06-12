@@ -12,6 +12,7 @@ header{
      color: #eb3c99;
      padding: 25px;
      width:auto;
+     display: flex;
      
 }
 
@@ -22,7 +23,7 @@ form{
     border: 2px solid #eb3c99;
     padding: 40px;
     max-width: 600px;
-    width: 80%;
+    width: 100%;
     background-color: white;
     color: #de2789;
     font-weight:500;
