@@ -16,7 +16,8 @@ header{
 }
 
 form{
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     border: 2px solid #eb3c99;
     padding: 40px;
@@ -37,6 +38,10 @@ form{
     margin-top: 8px;
 }
 
+span{
+    font-size: 13px;
+}
+
 button{
     display: block;
     margin: auto;
@@ -50,14 +55,6 @@ select, :placeholder-shown{
     display: block;
     font-family: 'Poppins', sans-serif;
     font-size:14px;
-}
-
-span{
-    font-size: 13px;
-}
-
-.options{
-    display: block;
 }
 
 .comentarios{
